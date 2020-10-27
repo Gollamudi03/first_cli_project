@@ -1,10 +1,7 @@
 require "pry"
 require "nokogiri"
 require "open-uri"
-require_relative "run.rb"
-# require_relative "car.rb"
-
-# require_relative "scraper.rb"
-#require_relative "run.rb"
-# require_relative "year.rb"
- require_relative "cli.rb"
+require_relative './lib/cli.rb'
+require_relative './lib/scraper.rb'
+require_relative './lib/car.rb'
+require_relative './lib/year.rb'
