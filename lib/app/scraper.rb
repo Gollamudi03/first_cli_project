@@ -1,3 +1,8 @@
+require "nokogiri"	
+require "open-uri"	
+require "pry"
+
+
 class Scraper
     def initialize
       @base_url = "https://www.dupontregistry.com"
